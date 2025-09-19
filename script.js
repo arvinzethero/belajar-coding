@@ -14,16 +14,16 @@ var angka = 2;
 
 
 // Belajar Pengulangan
-// let i = 0;
-// while(i < 10) {
-//     console.log("Hello Word");
-//     i++;
-// }
-// alert("Selesai");
-
-let ulang = true;
-while(ulang) {
-    console.log("Hello Bitch");
-    ulang = confirm("Mau lagi ?");
+let i = 0;
+while(i < 10) {
+    console.log(`Hello World ke-${i}`);
+    i++;
 }
-alert("selesai");
+alert("Selesai");
+
+// let ulang = true;
+// while(ulang) {
+//     console.log("Hello Bitch");
+//     ulang = confirm("Mau lagi ?");
+// }
+// alert("selesai");
