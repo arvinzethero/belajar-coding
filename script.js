@@ -14,12 +14,12 @@ var angka = 2;
 
 
 // Belajar Pengulangan
-let i = 0;
-while(i < 10) {
-    console.log(`Hello World ke-${i}`);
-    i++;
-}
-alert("Selesai");
+// let i = 0;
+// while(i < 10) {
+//     console.log(`Hello World ke-${i}`);
+//     i++;
+// }
+// alert("Selesai");
 
 // let ulang = true;
 // while(ulang) {
@@ -27,3 +27,11 @@ alert("Selesai");
 //     ulang = confirm("Mau lagi ?");
 // }
 // alert("selesai");
+
+// Belajar angkot
+let angkot = 0;
+
+while(angkot < 10) {
+    console.log(`Angkot No. ${angkot} beroperasi dengan baik.`);
+    angkot++;
+}
