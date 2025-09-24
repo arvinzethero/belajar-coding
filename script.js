@@ -29,9 +29,24 @@ var angka = 2;
 // alert("selesai");
 
 // Belajar angkot
-let angkot = 0;
+// let angkot = 0;
+// let jmlAngkot = 10;
 
-while(angkot < 10) {
-    console.log(`Angkot No. ${angkot} beroperasi dengan baik.`);
-    angkot++;
+// while(angkot < jmlAngkot) {
+//     console.log(`Angkot No. ${angkot} beroperasi dengan baik.`);
+//     angkot++;
+// }
+
+// Belajar angkot tapi versi for
+// for(var nilaiAwal = 0; nilaiAwal < 10; nilaiAwal++ ) {
+//     console.log(`Angkot No. ${nilaiAwal} beroperasi dengan baik`);
+// }
+
+for(var angkot = 1; angkot <= 10; angkot++) {
+    if(angkot <= 6) {
+        console.log(`Angkot No. ${angkot} beroperasi dengan baik`);
+    } else {
+        console.log(`Angkot No. ${angkot} sedang tidak beroperasi`);
+        
+    }
 }
