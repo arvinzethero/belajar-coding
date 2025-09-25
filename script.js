@@ -1,5 +1,5 @@
 // Belajar menulis js
-var angka = 2;
+// var angka = 2;
 // Belajar popup box
 // alert("selamat datang");
 
@@ -42,11 +42,22 @@ var angka = 2;
 //     console.log(`Angkot No. ${nilaiAwal} beroperasi dengan baik`);
 // }
 
-for(var angkot = 1; angkot <= 10; angkot++) {
-    if(angkot <= 6) {
-        console.log(`Angkot No. ${angkot} beroperasi dengan baik`);
-    } else {
-        console.log(`Angkot No. ${angkot} sedang tidak beroperasi`);
+// for(var angkot = 1; angkot <= 10; angkot++) {
+//     if(angkot <= 6) {
+//         console.log(`Angkot No. ${angkot} beroperasi dengan baik`);
+//     } else {
+//         console.log(`Angkot No. ${angkot} sedang tidak beroperasi`);
         
-    }
+//     }
+// }
+
+let angka = prompt("Masukan angka");
+if(angka % 2 === 0) {
+    alert(`Angka ini ${angka} adalah ilangan genap`)
+} else if(angka % 2 === 1) {
+    alert(`Angka ini ${angka} adalah bilangan ganjil`)
+} else {
+    alert(`Kamu tidak memasukan angka`)
 }
+
+console.log("kontol");
